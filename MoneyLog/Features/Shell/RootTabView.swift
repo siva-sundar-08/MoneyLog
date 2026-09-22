@@ -13,7 +13,7 @@ struct RootTabView: View {
         @Bindable var router = router
 
         TabView(selection: $router.selectedTab) {
-            Tab("Today", systemImage: "circle.grid.2x2", value: AppTab.today) {
+            Tab("Today", systemImage: "house", value: AppTab.today) {
                 TodayView()
             }
             Tab("Activity", systemImage: "list.bullet", value: AppTab.activity) {
@@ -63,3 +63,4 @@ struct ComingSoonScreen: View {
         }
     }
 }
+
