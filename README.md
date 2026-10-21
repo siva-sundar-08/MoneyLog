@@ -4,7 +4,7 @@ A personal expense tracker for iPhone. Everything is stored on the device — th
 is no account to create, no server to talk to, and no analytics.
 
 Built with SwiftUI and SwiftData, for iOS 18 and later.
-
+Testing
 ---
 
 ## Running it
